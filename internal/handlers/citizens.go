@@ -42,7 +42,7 @@ func CreateCitizen(w http.ResponseWriter, r *http.Request) {
 		LastName:    citizen.LastName,
 		DateOfBirth: citizen.DateOfBirth,
 		Gender:      citizen.Address,
-		Address:     citizen.Address,
+		Address:     citizen.Gender,
 		City:        citizen.City,
 		State:       citizen.State,
 		Pincode:     citizen.Pincode,
